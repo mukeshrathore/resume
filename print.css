@@ -21,15 +21,21 @@ header div.bg-black{
     display: block;
     margin-bottom: 20px;
 }
-
+.border-radius-0 {
+    border-radius: 0;
+}
 /* using @page rule will simply apply a margin to all the way around the page */
-@page {
+/* @page {
   size: A4;
   margin: 10%;
 ​
-  @bottom-left {
-    content: "Hello world";
+  @bottom-left-corner {
+    content: "Page " counter(page);
   }
+} */
+.hidden{
+    visibility: hidden;
 }
-
-
+.visibility-hidden{
+    visibility: hidden;
+}

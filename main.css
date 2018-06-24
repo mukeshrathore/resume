@@ -31,3 +31,9 @@ header h1{
 .print{
     display: none;
 }
+.mrgBtm10{
+    margin-bottom: 10px;
+}
+.visibility-hidden{
+    visibility: hidden;
+}
