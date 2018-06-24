@@ -1,0 +1,35 @@
+header div.bg-blue{
+    background: #17365D;
+    color:#fff;
+} 
+header div.bg-black{
+    background-color:#000;
+    color:#fff;
+    height: 24px;
+    overflow: hidden;
+}
+.bg-black div:last-child p{
+    text-align: right;
+}
+.alert {
+    padding: 0 15px;
+}
+.page-break {
+    page-break-after: always;
+}
+.print{
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* using @page rule will simply apply a margin to all the way around the page */
+@page {
+  size: A4;
+  margin: 10%;
+​
+  @bottom-left {
+    content: "Hello world";
+  }
+}
+
+

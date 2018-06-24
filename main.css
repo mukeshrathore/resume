@@ -15,7 +15,7 @@ header h1{
 }
 .mrg0{margin:0}
 .alert {
-    padding: 0 1.25rem;
+    padding: 0 15px;
 }
 .bg-black p{
     text-align: center;
@@ -27,4 +27,7 @@ header h1{
     .bg-black div:last-child p{
         text-align: right;
     }
+}
+.print{
+    display: none;
 }
