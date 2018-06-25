@@ -7,30 +7,31 @@ header div.bg-blue{
     background-color: #17365D;
     color:#fff;
 }
+
 header h1{
     font-size:36px;
 }
+
 .border-radius-0{
     border-radius: 0;
 }
-.mrg0{margin:0}
+
+.mrg0{
+    margin:0
+}
+
 .alert {
     padding: 0 15px;
 }
+
 .bg-black p{
     text-align: center;
 }
-@media (min-width: 576px){
-    .bg-black div:first-child p{
-        text-align: left;
-    }
-    .bg-black div:last-child p{
-        text-align: right;
-    }
-}
+
 .print{
     display: none;
 }
+
 .mrgBtm10{
     margin-bottom: 10px;
 }
@@ -39,4 +40,13 @@ header h1{
 } */
 .text-white{
     color:#fff;
+}
+
+@media (min-width: 576px){
+    .bg-black div:first-child p{
+        text-align: left;
+    }
+    .bg-black div:last-child p{
+        text-align: right;
+    }
 }
