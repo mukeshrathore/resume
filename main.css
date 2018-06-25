@@ -34,6 +34,9 @@ header h1{
 .mrgBtm10{
     margin-bottom: 10px;
 }
-.visibility-hidden{
+/* .visibility-hidden{
     visibility: hidden;
+} */
+.text-white{
+    color:#fff;
 }
