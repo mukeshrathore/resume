@@ -32,11 +32,11 @@ header div.bg-black{
 }
 
 .hidden{
-    visibility: hidden;
+    display: none;
 }
 
-.visibility-hidden{
-    visibility: hidden;
+.visibility-hidden{    
+    display: none;
 }
 
 /* using @page rule will simply apply a margin to all the way around the page */
