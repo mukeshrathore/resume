@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
 
         <!-- Header section for Page 1-->
         <header>
@@ -155,14 +155,18 @@
                                 <strong>Apache</strong> Web Server for UI, Tomcat for
                                 <strong>Java</strong> Presentation Layer on Lower Environments.
                             </li>
-                            <li>
+                            <!-- <li>
                                 Maintaining version control for UI code using
                                 <strong>GitHub</strong> Enterprise.
-                            </li>
+                            </li> -->
                             <li>
+                                <strong>GitHub</strong> Enterprise used for version control and
+                                <strong>Jenkins</strong> for Continuous Integration
+                            </li>
+                            <!-- <li>
                                 Build and Deploy Angular code on Lower Environments using
                                 <strong>Jenkins</strong>.
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -216,10 +220,11 @@
                     </div>
                 </div>
             </article>
-            <hr>
+            <hr class="d-print-none">
 
             <!-- Footer section for Page 1 -->
-            <footer class="print">
+            <footer class="d-none d-print-block">
+                <hr class="mrgBtm0">
                 <div class="row">
                     <div class="col-sm-4">
                         <p class="mrg0">Mukesh Rathore</p>
@@ -240,7 +245,7 @@
             <div class="page-break"></div>
 
             <!-- Header Section for Page 2 -->
-            <header class="print">
+            <header class="d-none d-print-block">
                 <div class="row bg-blue">
                     <div class="col-sm">
                         <h1 class="text-center"> Mukesh D. Rathore </h1>
@@ -421,7 +426,7 @@
         </section>
 
         <!-- Footer section for Page 2 -->
-        <footer class="print">
+        <footer class="d-none d-print-block">
             <hr>
             <div class="row">
                 <div class="col-sm-4">
@@ -443,7 +448,7 @@
         <div class="page-break"></div>
 
         <!-- Header Section for Page 3 -->
-        <header class="print">
+        <header class="d-none d-print-block">
             <div class="row bg-blue">
                 <div class="col-sm">
                     <h1 class="text-center"> Mukesh D. Rathore </h1>
@@ -601,7 +606,7 @@
         </div>
 
         <!-- footer section for Page 3-->
-        <footer class="print">
+        <footer class="d-none d-print-block">
 
             <!-- <div style="height: 640px;"></div> -->
             <div style="height: 770px;"></div>
