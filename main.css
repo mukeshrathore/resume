@@ -35,6 +35,7 @@ header h1{
 .mrgBtm10{
     margin-bottom: 10px;
 }
+
 .mrgBtm0{
     margin-bottom:0;
 }
@@ -53,12 +54,22 @@ header h1{
         text-align: right;
     }
 }
+
 .mrgTop15{
     margin-top:15px;
 }
+
 .mrgTop5{
     margin-top:5px;
 }
+
 div dl:last-child, dl dd{
     margin-bottom: 0;
+}
+
+small{
+    font-size:12px;    
+}
+.line-height-1{
+    line-height: 1;
 }

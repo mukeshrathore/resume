@@ -6,3 +6,6 @@ document.getElementById("yearOfExperience").innerHTML =
 function downloadPDF() {
     window.open('assets/Mukesh_Rathore_BE_Wells_Fargo_Tech_Lead.pdf');
 }
+function downloadDoc() {
+    window.open('assets/Mukesh_Rathore_BE_Wells_Fargo_Tech_Lead.doc');
+}
