@@ -74,12 +74,17 @@ div dl:last-child, dl dd{
 small{
     font-size:12px;    
 }
+
 .line-height-1{
     line-height: 1;
 }
 
   /* Make the image fully responsive */
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+button.close{
+    padding:0 5px;
+}
