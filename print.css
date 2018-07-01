@@ -1,11 +1,14 @@
-header div.bg-blue{
+/* TO DO: import main.css here */
+@import "./main.css";
+
+/* header div.bg-blue{
     background: #17365D;
     color:#fff;
-} 
+}  */
 
 header div.bg-black{
-    background-color:#000;
-    color:#fff;
+    /* background-color:#000;
+    color:#fff; */
     height: 24px;
     overflow: hidden;
 }
@@ -14,22 +17,22 @@ header div.bg-black{
     text-align: right;
 }
 
-.alert {
+/* .alert {
     padding: 0 15px;
-}
+} */
 
 .page-break {
     page-break-after: always;
 }
 
-.print{
+/* .print{
     display: block;
     margin-bottom: 20px;
-}
-
+} */
+/* 
 .border-radius-0 {
     border-radius: 0;
-}
+} */
 
 .hidden{
     display: none;
@@ -38,7 +41,9 @@ header div.bg-black{
 .visibility-hidden{    
     display: none;
 }
-
+/* .mrgBtm0{
+    margin-bottom:0;
+} */
 /* using @page rule will simply apply a margin to all the way around the page */
 /* @page {
   size: A4;
@@ -48,3 +53,6 @@ header div.bg-black{
     content: "Page " counter(page);
   }
 } */
+.mrgTop20{
+    margin-top: 20px;
+}
