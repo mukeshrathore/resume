@@ -1,5 +1,5 @@
 # resume
-resume using html,css,bootstrap
+resume using HTML 5, CSS 3, Bootstrap 3
 
 http://resume.github.io/?mukeshrathore 
 http://htmlpreview.github.io/?https://github.com/mukeshrathore/resume/blob/master/index.html
