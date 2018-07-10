@@ -92,7 +92,7 @@ button.close{
 
 @media (max-width: 576px){
     .text-overflow{
-        max-width: 275px;
+        max-width: 295px;
         overflow: hidden;
         display: inline-block;
         text-overflow: ellipsis;
