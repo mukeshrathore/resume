@@ -88,3 +88,15 @@ small{
 button.close{
     padding:0 5px;
 }
+
+
+@media (max-width: 576px){
+    .text-overflow{
+        max-width: 275px;
+        overflow: hidden;
+        display: inline-block;
+        text-overflow: ellipsis;
+        line-height: 1;
+        vertical-align: middle;
+    }
+}
