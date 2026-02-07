@@ -1,11 +1,11 @@
 @import "./main.css";
 
-header div.bg-black{
+header div.bg-black {
     height: 24px;
     overflow: hidden;
 }
 
-.bg-black div:last-child p{
+.bg-black div:last-child p {
     text-align: right;
 }
 
@@ -13,14 +13,10 @@ header div.bg-black{
     page-break-after: always;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.visibility-hidden{    
+.visibility-hidden {
     display: none;
-}
-
-.mrgTop20{
-    margin-top: 20px;
 }
